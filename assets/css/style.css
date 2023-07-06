@@ -1,0 +1,360 @@
+*{
+	padding: 0;
+	margin: 0;
+	position: relative;
+	font-family: serif;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+	font-family: serif;
+  cursor: grab;
+  cursor:red;
+}
+
+
+/*home page*/
+#parent-index{
+      z-index: 100;
+      background: #eee;
+}
+
+.home-call-index{
+    padding: 10px;
+    margin: 10px;
+    display: grid;
+    position: relative;
+}
+
+.home-call-index li{
+  padding: 5px;
+  margin: 5px;
+}
+
+.home-call-index li a{
+  color: black;
+}
+
+.home-call-index ul li:hover {
+  background: #F64C72;
+  padding: 10px;
+}
+
+
+.header .logo{
+	background: #5CDB95;
+}
+
+.header div:nth-child(2){
+	background: #8EE4AF;
+}
+
+.header a{
+  color: #05386B;
+}
+
+#nav ul {
+	position: relative;
+	display: flex;
+
+}
+
+#nav ul li{
+	position: relative;
+	padding: 8px;
+	margin:0;
+	list-style: none;
+	/*background: green;*/
+}
+
+.archives{
+	background: grey;
+}
+
+.archives-section{
+	padding-top:25px;
+	padding-bottom:25px;
+}
+
+.archives_table{
+	margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+#title {
+    background: url(http://localhost/mythought/assets/img/ribbon.png);
+    background-repeat: no-repeat;
+    background-size: 100% 95%;
+    padding: 8px 0;
+    color: #ffffff;
+  }
+
+
+.your-project-header .oes,.project-details,.project-synopsis h3{
+  color: white;
+}
+
+.find{
+	padding: 5px;
+}
+
+.archives-inside{
+	padding-left: 20px;
+}
+
+.your-project-header .oes{
+	margin-top: 5px;
+	background: grey;
+}
+
+.your-project-header{
+	padding-bottom:25px;
+}
+
+.your-project-header h2{
+	text-align: center;
+}
+
+.pro-logo img{
+	width: 10%;
+}
+
+.login{
+	margin-top: 5px;
+	padding: 25px;
+	background: grey;
+  border-bottom-right-radius: 290px;
+  border-top-left-radius: 200px;
+  opacity: 0.8;
+}
+
+.about_us_c{
+  background: beige;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 75px;
+}
+
+textarea{
+	width: 100%;
+  height: 220px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+input[type=text],[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+}
+
+input[type=password],[type=text]:focus {
+  border: 3px solid #555;
+}
+
+.feedback{
+	background: #e8cbcb;
+    padding: 25px;
+    border-radius: 46px 367px 65px 55px;
+}
+
+.inside-feedback{
+	/*background: grey;*/
+	padding:25px;
+}
+
+.your-project{
+	display: none;
+}
+
+
+.comments_line{
+	    background: #d4d4ff;
+    padding: 16px;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+.insert_comments_section{
+	padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.insert_comments_section textarea{
+	height: 130px;
+}
+
+
+ /*about us page*/
+/*.demo{ background: #3d3d3d; }*/
+/*.testimonial{
+    padding: 35px 50px;
+    margin: 0 20px 30px;
+    border-radius: 0 70px 0 70px;
+    border: 5px solid #ffc33c;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+}
+.testimonial .pic{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
+}
+.testimonial .title{
+    display: block;
+    margin: 0 0 7px 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffc33c;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.testimonial .post{
+    display: block;
+    font-size: 15px;
+    color: #000;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.testimonial .description{
+    font-size: 16px;
+    color: #000;
+    line-height: 30px;
+}
+.owl-theme .owl-controls{ margin-top: 0; }
+.owl-theme .owl-controls .owl-page span{
+    background: #000;
+    opacity: 0.8;
+    transition: all 0.3s ease 0s;
+}
+.owl-theme .owl-controls .owl-page.active span{ background: #ffc33c; }*/
+
+
+
+.testimonial{
+    padding: 70px 30px 50px;
+    margin: 50px 30px 30px;
+    border: 1px solid #ea816b;
+    position: relative;
+}
+.testimonial .pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #c7373c;
+    overflow: hidden;
+    margin: 0 auto;
+    position: absolute;
+    top: -50px;
+    left: 0;
+    right: 0;
+}
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
+}
+.testimonial .description{
+    font-size: 15px;
+    color: #5e595b;
+    line-height: 27px;
+    text-align: center;
+    margin: 0;
+    position: relative;
+}
+.testimonial .description:before{
+    content: "\f10d";
+    font-family: "Font Awesome 5 Free"; font-weight: 900;
+    font-size: 25px;
+    color: #d7d7d7;
+    position: absolute;
+    top: 0;
+    left: -25px;
+}
+.testimonial .title{
+    display: inline-table;
+    padding: 10px;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid #ea816b;
+    font-size: 20px;
+    font-weight: 700;
+    color: #c7373c;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -22px;
+    left: 0;
+    right: 0;
+}
+.testimonial .post{
+    font-size: 15px;
+    color: #671a36;
+}
+.owl-theme .owl-controls{
+    width: 100%;
+    height: 50px;
+    opacity: 1;
+    position: absolute;
+    top: 38%;
+}
+.owl-theme .owl-controls .owl-buttons div{
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+    border-radius: 0;
+    background: transparent;
+}
+.owl-prev{
+    position: absolute;
+    left: -5%;
+}
+.owl-next{
+    position: absolute;
+    right: -5%;
+}
+.owl-prev:after,
+.owl-next:after{
+    content: "\f104";
+    font-family: "Font Awesome 5 Free"; font-weight: 900;
+    font-size: 30px;
+    color: #c7373c;
+    opacity: 1;
+}
+.owl-next:after{ content: "\f105"; }
+ 
+@media only screen and (max-width: 479px){
+    .testimonial{ padding: 70px 10px 30px; }
+    .testimonial .description:before{ top: -20px }
+    .testimonial .title{ font-size: 12px; }
+    .testimonial .post{ font-size: 11px; }
+}
+
+
+/*end*/
+
+
+canvas {
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+}
